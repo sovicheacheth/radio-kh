@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router'
 import { RouterExtensions } from '@nativescript/angular'
 
 import { DataService, DataItem } from '../../shared/data.service'
+import { TNSPlayer } from "nativescript-audio"
 
 @Component({
   selector: 'ItemDetail',
